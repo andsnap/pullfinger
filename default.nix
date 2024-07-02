@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "pullfinger";
   buildInputs = [
     gtk3
-    pkgconfig
+    pkg-config
     gcc
   ];
 }
